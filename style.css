@@ -15,12 +15,11 @@
 }
 
 :root{
-    --bg-color:#1f242d;
-    --text-color:#fff;
-    --main-color:#0ef;
-    --highlight-color:#66d9ef62;
-
-
+    --bg-color: #eee2dc;
+    --second-bg-color: #edc7b7;
+    --text-color: #123c69;
+    --main-color: #ac3b61;
+    --highlight-color: #ac3b61;
 }
 
 html{
