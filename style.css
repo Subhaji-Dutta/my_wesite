@@ -16,7 +16,6 @@
 
 :root{
     --bg-color:#1f242d;
-    --second-bg-color:#1f242d;
     --text-color:#fff;
     --main-color:#0ef;
     --highlight-color:#66d9ef62;
@@ -429,48 +428,6 @@ span{
     margin: 1rem 4rem;
     font-family: poppins;
 }
-
-.contact form{
-    max-width: 70rem;
-    margin: -1rem 1rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact form .input-box .item.error{
-   border: 2px solid red; 
-}
-
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: #353e47;
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input {
-    width: 48%;
-}
-
-.contact form textarea{
-    resize: none;
-}
-
-
-.contact form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
 .footer{
     display: flex;
     justify-content: space-between;
@@ -635,9 +592,6 @@ span{
     .contact-box h3 {
         font-size: 1.3rem;
     }
-    .contact form{
-        max-width: 80rem;
-    }
 }
 
 @media (max-width: 617px){
@@ -662,20 +616,11 @@ span{
     .home-content p{
         text-align: justify;
     }
-    .contact-form{
-        margin: 1rem 1rem 3rem 1rem;
-        display: block;
-        justify-content: center;
-        text-align: center;
-    }
 }
 
 @media (max-width: 450px){
     html{
         font-size: 50%;
-    }
-    .contact form .input-box input{
-        width: 100%;
     }
 }
 
