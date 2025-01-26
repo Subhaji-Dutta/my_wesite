@@ -394,7 +394,7 @@ span{
 
 .contact-content .contact-box {
     flex: 1 1 30rem;
-    background: #353e47;
+    background: var(--second-bg-color);
     padding: 2rem 2rem 3rem;
     border-radius: 2rem;
     margin-bottom: 2rem;
